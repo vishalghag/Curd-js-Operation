@@ -1,0 +1,113 @@
+.formsData
+{
+    width: 1200px;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+    justify-content: center;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    display: none;
+}
+
+.formData-items
+{
+    margin-top: 15px;
+    width: 1200px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+    /* display: block; */
+    display: none;
+}
+
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit]{
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.flex-items
+{
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+    margin: 10px;
+    width: 270px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.card-image
+{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 60px;
+    margin-left: 65px;
+    border: 1px solid blue;
+}
+
+.edited
+{
+    margin-top: 13px;
+    background-color: orange;
+    color: whitesmoke;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+
+.removed
+{
+    margin-top: 13px;
+    background-color: red;
+    color: whitesmoke;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.red{
+    border:2px solid red;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 270px;
+    height: 400px;
+}
+
+#addMe a{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 15px 20px;
+    text-decoration: none;
+    float: right;
+    /* margin-top: 30px; */
+    /* margin-bottom: 50px; */
+}
